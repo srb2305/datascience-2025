@@ -36,6 +36,13 @@ This guide provides step-by-step instructions to install **Jupyter Notebook** on
    ```
    - This will open Jupyter Notebook in your default browser at: http://localhost:8888/tree
 
+5. **If its showing error while Launch Jupyter Notebook **
+   -Try running Jupyter directly using Python:
+   ```bash
+   python -m notebook
+   ```
+   - This should open Jupyter Notebook in your browser, bypassing the PATH problem.: 
+
 ---
 
 ## Method 2: Install Jupyter Notebook using Anaconda (Beginner Friendly)
