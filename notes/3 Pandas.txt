@@ -1,0 +1,46 @@
+🐼 Pandas – "Python Data Analysis Library"
+➤ What is it?
+Pandas is a high-level data manipulation tool built on top of NumPy. It offers data structures like Series and DataFrame that are ideal for working with tabular or labeled data (like Excel sheets, SQL tables, etc.).
+
+➤ Core Data Structures:
+Series: 1D labeled array (like a single column)
+
+DataFrame: 2D labeled data structure (like a full table)
+
+➤ Common Use-Cases:
+Data Cleaning
+
+Data Transformation
+
+Filtering, sorting, grouping
+
+Import/export CSV, Excel, JSON, SQL
+
+Time series manipulation
+
+➤ Example:
+import pandas as pd
+
+# Creating a DataFrame
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Age': [25, 30, 35]
+}
+
+df = pd.DataFrame(data)
+print(df)
+
+# Filter rows where Age > 28
+print(df[df['Age'] > 28])
+
+
+
+
+🔄 Pandas vs NumPy: When to Use What?
+Feature	         NumPy			Pandas
+-------------------------------------------------------------------
+Data Structure	Arrays (ndarray)	Series, DataFrame
+Speed		Very fast		Slightly slower than NumPy
+Use-case	Numerical 		computation	Tabular data manipulation
+Built on	C			NumPy
+Ideal for	Math-heavy operations	Real-world data (with labels)

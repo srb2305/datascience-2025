@@ -1,0 +1,35 @@
+📦 NumPy – "Numerical Python"
+➤ What is it?
+NumPy is the core library for numerical operations in Python. It provides support for multidimensional arrays (ndarray) and functions for mathematical operations, linear algebra, Fourier transforms, and more.
+
+➤ Key Features:
+Faster array computations compared to native Python
+
+Vectorization (no need for loops)
+
+Useful for scientific computing
+
+Forms the foundation for many other libraries (like Pandas, SciPy, etc.)
+
+➤NumPy Applications
+Data Analysis: In Data analysis, while handling data, we can create data (in the form of array objects), filter the data, and perform various operations such as mean, finding the standard deviations, etc.
+
+Machine Learning & AI: Popular machine learning tools like TensorFlow and PyTorch use NumPy to manage input data, handle model parameters, and process the output values.
+
+Array Manipulation: NumPy allows you to create, resize, slice, index, stack, split, and combine arrays.
+Finance & Economics: NumPy is used for financial analysis, including portfolio optimization, risk assessment, time series analysis, and statistical modelling.
+
+Image & Signal Processing: NumPy helps process and analyze images and signals for various applications.
+Data Visualization: NumPy independently does not create visualizations, but it works with libraries like Matplotlib and Seaborn to generate charts and graphs from numerical data.
+
+➤ Example:
+import numpy as np
+
+# Creating an array
+arr = np.array([1, 2, 3, 4])
+
+# Operations
+print(arr) # Prints [10 20 30 40 50]
+print(arr + 10)         # [11 12 13 14]
+print(arr * 2)          # [2 4 6 8]
+print(np.mean(arr))     # 2.5
